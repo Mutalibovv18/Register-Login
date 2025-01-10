@@ -61,7 +61,7 @@ password: password
     <form onSubmit={handleSubmit} className='form'>
     <input value={userName} onChange={(e) => {setUsername(e.target.value)}} placeholder='Enter Username' type="text" />
     <input value={password} onChange={(e) => {setPassword(e.target.value)}} placeholder='Enter-password' type="password" />
-    <button disabled = {loading} className='btn-reg'>{loading ? "Loading..." : "Register"}</button>
+    <button disabled = {loading} className='btn-reg'>{loading ? "Loading..." : "Login"}</button>
     </form>
     </div>
 
