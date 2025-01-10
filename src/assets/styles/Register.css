@@ -1,0 +1,19 @@
+.form {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 20px;
+}
+.form * {
+    padding: 20px;
+}
+.btn-reg {
+    background-color: darkorange;
+    color: white;
+    cursor: pointer;
+}
+
+
